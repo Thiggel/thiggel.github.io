@@ -1,0 +1,1 @@
+import{r as a,o as e,c as t,w as o,a as _,T as s,F as c}from"./vendor.4ce89900.js";import{_ as i}from"./index.3b5045d5.js";const m={};function d(l,p){const n=a("router-view");return e(),t(n,null,{default:o(({Component:r})=>[_(s,{name:"fade",mode:"out-in"},{default:o(()=>[(e(),t(c(r)))]),_:2},1024)]),_:1})}var v=i(m,[["render",d]]);export{v as default};
