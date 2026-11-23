@@ -58,20 +58,20 @@ h2.sec{font-size:clamp(38px,4.6vw,56px);line-height:1;margin:0 0 40px}
 
 /* ---------- papers ---------- */
 #papers{padding:120px 0 40px}
-.feat{display:grid;grid-template-columns:1fr;gap:0;padding:36px 40px 34px;border:1px solid rgba(255,156,207,.35);border-radius:22px;background:rgba(26,18,64,.55);max-width:900px}
+.feat{display:grid;grid-template-columns:1fr;gap:0;padding:36px 40px 34px;border:1px solid rgba(255,156,207,.35);border-radius:22px;background:rgba(26,18,64,.55)}
 .venue{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--pink)}
 .feat h3{font-size:clamp(28px,3vw,38px);line-height:1.1;margin:12px 0 14px}
 .feat h3 a,.pub h3 a{text-decoration:none}
 .feat h3 a:hover,.pub h3 a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:6px;text-decoration-color:var(--pink)}
 .au{margin:0;color:var(--dim);font-size:16px}
 .au b{font-weight:500;color:#fff}
-.feat .ab{margin:18px 0 0;color:var(--soft);max-width:680px}
+.feat .ab{margin:18px 0 0;color:var(--soft);max-width:820px}
 .btns{display:flex;gap:12px;margin-top:24px;flex-wrap:wrap}
 .btns a{display:inline-block;padding:10px 18px;border:1px solid var(--pink);border-radius:40px;color:var(--pink);font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;text-shadow:none}
 .btns a:hover{background:var(--pink);color:#1a1240}
-.pub{max-width:900px;padding:28px 40px 0}
+.pub{padding:28px 40px 0}
 .pub h3{font-size:24px;line-height:1.2;margin:8px 0 0;font-weight:400}
-.more{max-width:900px;padding:26px 40px 0;font-family:var(--mono);font-size:13px;letter-spacing:.08em}
+.more{padding:26px 40px 0;font-family:var(--mono);font-size:13px;letter-spacing:.08em}
 .more a{color:var(--pink);text-underline-offset:5px}
 
 /* ---------- timeline in the crash course map style ---------- */
@@ -352,7 +352,7 @@ var LANES=[
   {k:'teach',name:'Teaching',c:'var(--lilac)'},
   {k:'conf',name:'Conferences',c:'var(--pink)'},
   {k:'pub',name:'Publications',c:'var(--sky)'}];
-var GS='https://arxiv.org/abs/2510.13876',BR='https://arxiv.org/abs/2611.02952',BL='https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fVuktiEAAAAJ&citation_for_view=fVuktiEAAAAJ:zYLM7Y9cAGgC';
+var GS='https://arxiv.org/abs/2510.13876',BR='https://arxiv.org/abs/2611.02952',BL='https://aclanthology.org/2026.babylm-main.7/';
 var YEARS=[
  {y:2026,
   teach:[{t:'Deep Learning and NLP',s:'including four lectures of the ML Crash Course',k:'HU Berlin · winter 2026',href:'https://ml-crash-course.github.io/',b:'Teaching Deep Learning and NLP again. The ML Crash Course is part of the course, and I gave four of its lectures.'}],
@@ -365,11 +365,11 @@ var YEARS=[
  {cont:1,
   edu:[{id:'msc',t:'M.Sc. Artificial Intelligence',k:'Amsterdam · 2023 to 2025 · cum laude',b:'GPA 8.24. The thesis grew into the ICLR 2026 paper.'}],
   pub:[{t:'Balancing representations […]',v:'Workshop · CVPR 2025',href:BR,b:'Balancing representations with anomaly detection and diffusion. The link goes to the extended arXiv version.'},
-       {t:'Cephalometric landmark detection […]',v:'Journal · JCMFS 2025',b:'Cephalometric landmark detection using Vision Transformers with direct coordinate prediction. Journal of Cranio-Maxillo-Facial Surgery.'},
-       {t:'[Re] Learning fair graph […]',v:'Journal · ReScience C 2025',b:'[Re] Learning fair graph representations via automated data augmentations. ReScience C, volume 10.'}]},
+       {t:'Cephalometric landmark detection […]',v:'Journal · JCMFS 2025',href:'https://doi.org/10.1016/j.jcms.2025.05.021',b:'Cephalometric landmark detection using Vision Transformers with direct coordinate prediction. Journal of Cranio-Maxillo-Facial Surgery.'},
+       {t:'[Re] Learning fair graph […]',v:'Journal · ReScience C 2025',href:'https://doi.org/10.5281/zenodo.16374814',b:'[Re] Learning fair graph representations via automated data augmentations. ReScience C, volume 10.'}]},
  {y:2024,
   pos:[{id:'intern',t:'AI Research Intern',k:'Qualcomm UvA Lab · Sep 2024 to Aug 2025',b:'Self supervised learning for imbalanced image data and depth adaptive language models.'}],
-  pub:[{t:'Exploring monotonicity […]',v:'Workshop · ICML 2024',b:'Exploring monotonicity in early-exiting language models. ICML 2024 workshop ES-FoMo.'}]},
+  pub:[{t:'Exploring monotonicity […]',v:'Workshop · ICML 2024',href:'https://openreview.net/forum?id=BM1Aijdheb',b:'Exploring monotonicity in early-exiting language models. ICML 2024 workshop ES-FoMo.'}]},
  {y:2023,edu:[{id:'mscs',t:'Started the M.Sc.',k:'Amsterdam · Sep 2023'}]},
  {y:2022,edu:[{t:'B.Sc. Artificial Intelligence',k:'Groningen · cum laude',b:'GPA 8.5.'}],
   pos:[{t:'Software engineer',k:'Hamburg · 2019 to 2023',b:'Freelance work in Hamburg and a role at Work Digital GmbH.'}]}];
