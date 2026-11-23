@@ -53,6 +53,8 @@ main,footer{position:relative;z-index:1;text-shadow:0 1px 10px rgba(8,5,22,.55)}
 .sky{background:linear-gradient(180deg,#0c0820 0,#130c34 22%,#1d1350 45%,#2d1a69 66%,#4a2683 80%,#7a3a98 88%,#bb5a9e 94%,#ff9a86 100%)}
 
 h2.sec{font-size:clamp(38px,4.6vw,56px);line-height:1;margin:0 0 40px}
+.sechead{display:flex;align-items:center;justify-content:space-between;gap:16px 24px;flex-wrap:wrap;margin:0 0 40px}.sechead h2.sec{margin:0}
+.cv{display:inline-flex;align-items:center;padding:12px 20px;border:1px solid rgba(255,240,250,.5);border-radius:40px;text-decoration:none;font-family:var(--mono);font-size:13px;letter-spacing:.1em;text-transform:uppercase}.cv:hover{border-color:#fff;background:rgba(255,255,255,.1)}
 
 /* ---------- papers ---------- */
 #papers{padding:120px 0 40px}
@@ -215,7 +217,7 @@ footer .mail{font-family:var(--mono);font-size:15px;color:#fff;margin-top:20px}
 
 <section id="timeline">
   <div class="wrap">
-    <h2 class="sec">Resume</h2>
+    <div class="sechead"><h2 class="sec">Resume</h2><a class="cv" href="resume.pdf" target="_blank" rel="noopener">Resume as PDF ↗</a></div>
     <div class="tl" id="tl"></div>
   </div>
 </section>
